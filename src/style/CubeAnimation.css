@@ -1,0 +1,81 @@
+/* Reset básico para o componente */
+.cube-animation-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+
+/* Container wrapper se necessário */
+.cube-animation-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+/* Estilos para o canvas */
+.cube-animation-canvas:focus {
+    outline: none;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+    .cube-animation-container {
+        /* Ajustes para mobile se necessário */
+    }
+}
+
+/* Animações CSS opcionais para elementos UI sobrepostos */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Classe utilitária para elementos sobrepostos */
+.cube-animation-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 10;
+}
+
+/* Estilos para controles opcionais */
+.cube-animation-controls {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 20;
+    display: flex;
+    gap: 10px;
+}
+
+.cube-animation-button {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.cube-animation-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
