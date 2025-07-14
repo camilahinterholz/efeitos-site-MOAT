@@ -38,8 +38,8 @@ const CubeAnimation = () => {
         cubesPerBatchMobile: 2,    // Quantidade de cubos por vez no mobile
 
         // Opacidade e visibilidade
-        initialOpacity: 0.8,         // Opacidade inicial
-        staticSquareOpacity: 0.8,  // Opacidade dos quadrados estáticos
+        initialOpacity: 0.5,         // Opacidade inicial
+        staticSquareOpacity: 0.5,  // Opacidade dos quadrados estáticos
         visibleAreaProgress: 0.2,  // Até que % do movimento o cubo permanece visível (0.8 = 80%)
         fadeOutDuration: 0.1,      // Duração do fade out como % do total (0.2 = últimos 20%)
         darkOverlayOpacity: 0.988,   // Opacidade do overlay preto (0 = sem overlay, 1 = totalmente preto)

@@ -138,7 +138,7 @@
   opacity: 1;
   width: 200px;
   height: 200px;
-  filter: blur(40px) brightness(2.8) saturate(3.5);
+  filter: blur(22px) brightness(2.8) saturate(3.5);
   background: radial-gradient(circle at center,
       rgba(255, 255, 255, 1) 0%,
       rgba(255, 240, 180, 0.8) 30%,
