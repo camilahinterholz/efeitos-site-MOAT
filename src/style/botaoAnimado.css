@@ -67,21 +67,21 @@
 
 /* Glow principal que segue o mouse */
 .glow-main {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  pointer-events: none;
-  mix-blend-mode: screen;
-  transform: translate(-50%, -50%);
-  background: radial-gradient(circle at center,
-      rgba(255, 255, 255, 0.95) 0%,
-      rgba(255, 240, 180, 0.6) 30%,
-      rgba(255, 200, 80, 0.2) 50%,
-      transparent 70%);
-  filter: blur(8px) brightness(1.8) saturate(2.2);
-  opacity: 0.9;
-  transition: all 0.3s ease;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    pointer-events: none;
+    mix-blend-mode: screen;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle at center,
+            rgba(255, 255, 255, 0.95) 0%,
+            rgba(255, 240, 180, 0.6) 30%,
+            rgba(255, 200, 80, 0.2) 50%,
+            transparent 70%);
+    filter: blur(8px) brightness(1.8) saturate(2.2);
+    opacity: 0.9;
+    transition: all 0.3s ease;
 }
 
 
@@ -135,15 +135,15 @@
 
 /* Estados hover */
 .botao-com-glow.hover .glow-main {
-  opacity: 1;
-  width: 200px;
-  height: 200px;
-  filter: blur(22px) brightness(2.8) saturate(3.5);
-  background: radial-gradient(circle at center,
-      rgba(255, 255, 255, 1) 0%,
-      rgba(255, 240, 180, 0.8) 30%,
-      rgba(255, 200, 80, 0.4) 60%,
-      transparent 85%);
+    opacity: 1;
+    width: 120px;
+    height: 80px;
+    filter: blur(10px) brightness(2.8) saturate(3.5);
+    background: radial-gradient(ellipse at center,
+            rgba(255, 255, 255, 1) 0%,
+            rgba(255, 240, 100, 0.8) 30%,
+            rgba(255, 200, 80, 0.4) 60%,
+            transparent 85%);
 }
 
 
